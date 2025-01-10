@@ -1,0 +1,9 @@
+PROGRAM STRUK BELANJA
+Untuk membuat struk data yang sesuai untuk program kasi, kitab isa menggunakan struktur data berbasis objek untuk menyimpan barang barang dalam keranjang belanja. Kita akanmenggunak class dalam python untuk mempresentasikan berbagai bagian dari program kasir tersebut
+Penjelasan di atas:
+1, class barang: setiap memiliki atribut nama, harga, dan jumlah. Metode total_harga digunakan untuk menghitung harga total untuk item tersebut berdasarkan harga per unit dan jumlah yang dibeli.
+2. class keranjang: menyimpan daftar barangdalam bentuk list barang_list metode:
+* tambah_barang: menambahkan barang ke dalam keranjang
+* tampilkan_barang: menampilkan semua barang dalam keranjang beserta jumlah dan total harga masing masing
+*hitung_total: menghitung total harga untuk semua barang dalam keranjang
+* cetak_struk: mencetakstruk belanja yang mencantum barang jumlah, harga, dan total
